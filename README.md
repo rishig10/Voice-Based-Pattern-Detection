@@ -5,7 +5,7 @@ This project provides a pipeline to analyze raw voice audio samples and detect p
 ## Overview
 
 The core idea is to extract various features from speech recordings that are potentially indicative of cognitive impairment. These features include:
--   **Audio Transcripts:** Converting speech to text using OpenAI's Whisper model 
+*   **Audio Transcripts:** Converting speech to text using OpenAI's Whisper model 
 *   **Pause Metrics:** Pause rate, average pause duration.
 *   **Hesitation Metrics:** Rate of filler words (um, uh, etc.).
 *   **Acoustic Features:** Pitch mean, pitch standard deviation, pitch variability, pitch range, speech rate.
